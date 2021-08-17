@@ -1,5 +1,5 @@
-mkdir sdk_folder
-cd sdk_folder
+mkdir /home/pi/sdk_folder
+cd /home/pi/sdk_folder
 mkdir sdk-build sdk-source third-party sdk-install db
 
 sudo apt-get -y install \
