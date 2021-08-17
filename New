@@ -1,0 +1,33 @@
+1) sudo ./install1.sh
+
+
+
+2) sudo nano /home/pi/sdk_folder/sdk-build/Integration/AlexaClientSDKConfig.json
+
+"gstreamerMediaPlayer":{
+  "audioSink":"alsasink"
+ },
+
+
+
+
+3) sudo nano ~/.asoundrc 
+
+pcm.!default {
+   type asym
+   playback.pcm {
+     type plug
+     slave.pcm "hw:0,0"
+   }
+   capture.pcm {
+     type plug
+      slave.pcm "hw:1,0"
+   }
+
+
+4) sudo ./install2.sh
+
+
+5) sudo ./install3.sh
+
+6) sudo ./install4.sh
