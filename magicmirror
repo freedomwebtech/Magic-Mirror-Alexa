@@ -1,0 +1,11 @@
+1) ./install1.sh
+
+2) pm2 start MagicMirror
+
+
+3) ./install2.sh
+
+4) https://developer.amazon.com/alexa/console/avs/home
+
+5) https://magic-mirror-avs.github.io/Alexa-Web-Helper/authresponse
+
